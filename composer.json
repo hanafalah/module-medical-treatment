@@ -1,0 +1,25 @@
+{
+    "name": "gilanggustina/module-medical-treatment",
+    "description": "Master Module Medical Treatment",
+    "type": "library",
+    "require": {
+        "zahzah/laravel-support": "1.x",
+        "gii/module-service": "1.x",
+        "gii/module-medic-service": "1.x",
+        "gilanggustina/module-treatment": "1.x",
+        "zahzah/module-transaction": "1.x",
+        "gii/module-examination": "1.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gilanggustina\\ModuleMedicalTreatment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cahaya Gilang Gustina",
+            "email": "cgg01082000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
