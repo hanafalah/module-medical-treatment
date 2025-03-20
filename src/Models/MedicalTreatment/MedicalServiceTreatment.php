@@ -3,13 +3,14 @@
 namespace Gilanggustina\ModuleMedicalTreatment\Models\MedicalTreatment;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Zahzah\LaravelSupport\Models\BaseModel; 
-use Zahzah\LaravelHasProps\Concerns\HasProps;
+use Hanafalah\LaravelSupport\Models\BaseModel;
+use Hanafalah\LaravelHasProps\Concerns\HasProps;
 
-class MedicalServiceTreatment extends BaseModel{
+class MedicalServiceTreatment extends BaseModel
+{
     use SoftDeletes, HasProps;
 
-    protected $list = ['id','medical_treatment_id','medic_service_id'];
+    protected $list = ['id', 'medical_treatment_id', 'medic_service_id'];
     protected $show = [];
 
     // public function toViewApi(){
@@ -21,8 +22,14 @@ class MedicalServiceTreatment extends BaseModel{
     // }
 
     //EIGER SECTION
-    public function medicalTreatment(){return $this->belongsToModel('MedicalTreatment');}
-    public function medicService(){return $this->belongsToModel('MedicService');}
-    
+    public function medicalTreatment()
+    {
+        return $this->belongsToModel('MedicalTreatment');
+    }
+    public function medicService()
+    {
+        return $this->belongsToModel('MedicService');
+    }
+
     //ENDEIGER SECTION
 }

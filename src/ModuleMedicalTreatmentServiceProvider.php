@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Gilanggustina\ModuleMedicalTreatment;
 
-use Zahzah\LaravelSupport\Providers\BaseServiceProvider;
+use Hanafalah\LaravelSupport\Providers\BaseServiceProvider;
 
 class ModuleMedicalTreatmentServiceProvider extends BaseServiceProvider
 {
@@ -16,9 +16,10 @@ class ModuleMedicalTreatmentServiceProvider extends BaseServiceProvider
     public function register()
     {
         $this->registerMainClass(ModuleMedicalTreatment::class)
-             ->registerCommandService(Providers\CommandServiceProvider::class)
-             ->registers([
-                '*','Services' => function(){
+            ->registerCommandService(Providers\CommandServiceProvider::class)
+            ->registers([
+                '*',
+                'Services' => function () {
                     $this->binds([
                         Contracts\ModuleMedicalTreatment::class => new ModuleMedicalTreatment(),
                         Contracts\MedicalTreatment::class => new Schemas\MedicalTreatment(),
@@ -33,11 +34,13 @@ class ModuleMedicalTreatmentServiceProvider extends BaseServiceProvider
      *
      * @return string
      */
-    protected function dir(): string{
-        return __DIR__.'/';
+    protected function dir(): string
+    {
+        return __DIR__ . '/';
     }
 
-    protected function migrationPath(string $path = ''): string{
+    protected function migrationPath(string $path = ''): string
+    {
         return database_path($path);
     }
 }

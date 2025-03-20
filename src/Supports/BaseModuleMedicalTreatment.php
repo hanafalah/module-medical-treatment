@@ -2,9 +2,10 @@
 
 namespace Gilanggustina\ModuleMedicalTreatment\Supports;
 
-use Zahzah\LaravelSupport\Supports\PackageManagement;
+use Hanafalah\LaravelSupport\Supports\PackageManagement;
 
-class BaseModuleMedicalTreatment extends PackageManagement{
+class BaseModuleMedicalTreatment extends PackageManagement
+{
     /** @var array */
     protected $__module_medical_treatment_config = [];
 
@@ -15,7 +16,8 @@ class BaseModuleMedicalTreatment extends PackageManagement{
      * @throws Exception description of exception
      * @return void
      */
-    public function __construct(){
-        $this->setConfig('module-medical-treatment',$this->__module_medical_treatment_config);
-    }    
-}   
+    public function __construct()
+    {
+        $this->setConfig('module-medical-treatment', $this->__module_medical_treatment_config);
+    }
+}

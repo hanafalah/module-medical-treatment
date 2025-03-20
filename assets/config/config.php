@@ -1,10 +1,11 @@
-<?php 
+<?php
 
 use Gilanggustina\ModuleMedicalTreatment\{
-    Models, Contracts,
+    Models,
+    Contracts,
     Commands as ModuleMedicalTreatmentCommands
 };
-use Gii\ModuleMedicService\Models\MedicService;
+use Hanafalah\ModuleMedicService\Models\MedicService;
 
 return [
     'contracts' => [

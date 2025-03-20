@@ -227,7 +227,7 @@
             "time": "2024-02-18T21:47:00+00:00"
         },
         {
-            "name": "gii/module-service",
+            "name": "hanafalah/module-service",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
@@ -246,19 +246,19 @@
                 "illuminate/support": "^11.26",
                 "php": "^7.0|^8.0",
                 "symfony/process": "^7.1",
-                "zahzah/laravel-support": "1.x"
+                "hanafalah/laravel-support": "1.x"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Gii\\ModuleService\\ModuleServiceServiceProvider"
+                        "Hanafalah\\ModuleService\\ModuleServiceServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Gii\\ModuleService\\": "src/"
+                    "Hanafalah\\ModuleService\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -293,8 +293,8 @@
                 "shasum": ""
             },
             "require": {
-                "gii/module-service": "1.x",
-                "zahzah/laravel-support": "1.x"
+                "hanafalah/module-service": "1.x",
+                "hanafalah/laravel-support": "1.x"
             },
             "default-branch": true,
             "type": "library",
@@ -2267,7 +2267,7 @@
             "time": "2022-03-08T17:03:00+00:00"
         },
         {
-            "name": "zahzah/laravel-has-props",
+            "name": "hanafalah/laravel-has-props",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
@@ -2282,13 +2282,13 @@
             },
             "require": {
                 "stancl/virtualcolumn": "^1.4",
-                "zahzah/laravel-support": "1.x",
-                "zahzah/module-warehouse": "1.x-dev"
+                "hanafalah/laravel-support": "1.x",
+                "hanafalah/module-warehouse": "1.x-dev"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Zahzah\\LaravelHasProps\\": "src/"
+                    "Hanafalah\\LaravelHasProps\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2305,7 +2305,7 @@
             "time": "2024-10-23T08:40:04+00:00"
         },
         {
-            "name": "zahzah/laravel-support",
+            "name": "hanafalah/laravel-support",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
@@ -2320,13 +2320,13 @@
             },
             "require": {
                 "stancl/jobpipeline": "^1.6.2",
-                "zahzah/laravel-has-props": "1.x"
+                "hanafalah/laravel-has-props": "1.x"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Zahzah\\LaravelSupport\\LaravelSupportServiceProvider"
+                        "Hanafalah\\LaravelSupport\\LaravelSupportServiceProvider"
                     ]
                 }
             },
@@ -2335,7 +2335,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Zahzah\\LaravelSupport\\": "src/"
+                    "Hanafalah\\LaravelSupport\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2353,7 +2353,7 @@
             "time": "2024-10-23T16:16:06+00:00"
         },
         {
-            "name": "zahzah/module-funding",
+            "name": "hanafalah/module-funding",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
@@ -2367,20 +2367,20 @@
                 "shasum": ""
             },
             "require": {
-                "zahzah/laravel-support": "1.x"
+                "hanafalah/laravel-support": "1.x"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Zahzah\\ModuleFunding\\ModuleFundingServiceProvider"
+                        "Hanafalah\\ModuleFunding\\ModuleFundingServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Zahzah\\ModuleFunding\\": "src/"
+                    "Hanafalah\\ModuleFunding\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2397,7 +2397,7 @@
             "time": "2024-10-23T13:38:00+00:00"
         },
         {
-            "name": "zahzah/module-warehouse",
+            "name": "hanafalah/module-warehouse",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
@@ -2411,22 +2411,22 @@
                 "shasum": ""
             },
             "require": {
-                "zahzah/laravel-has-props": "1.x",
-                "zahzah/laravel-support": "1.x",
-                "zahzah/module-funding": "1.x"
+                "hanafalah/laravel-has-props": "1.x",
+                "hanafalah/laravel-support": "1.x",
+                "hanafalah/module-funding": "1.x"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Zahzah\\ModuleWarehouse\\ModuleWarehouseServiceProvider"
+                        "Hanafalah\\ModuleWarehouse\\ModuleWarehouseServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Zahzah\\ModuleWarehouse\\": "src/"
+                    "Hanafalah\\ModuleWarehouse\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

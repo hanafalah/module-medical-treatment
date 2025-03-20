@@ -2,9 +2,6 @@
 
 namespace Gilanggustina\ModuleMedicalTreatment\Contracts;
 
-use Zahzah\LaravelSupport\Contracts\DataManagement;
+use Hanafalah\LaravelSupport\Contracts\DataManagement;
 
-interface ModuleMedicalTreatment extends DataManagement
-{
-
-}
+interface ModuleMedicalTreatment extends DataManagement {}
