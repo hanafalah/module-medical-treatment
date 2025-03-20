@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Resources\MedicalTreatment;
+namespace Hanafalah\ModuleMedicalTreatment\Resources\MedicalTreatment;
 
 use Hanafalah\LaravelSupport\Resources\ApiResource;
 

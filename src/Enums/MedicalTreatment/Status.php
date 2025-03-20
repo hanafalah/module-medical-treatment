@@ -1,8 +1,9 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Enums\MedicalTreatment;
+namespace Hanafalah\ModuleMedicalTreatment\Enums\MedicalTreatment;
 
-enum Status : string{
+enum Status: string
+{
     case ACTIVE   = 'ACTIVE';
     case INACTIVE = 'INACTIVE';
 }

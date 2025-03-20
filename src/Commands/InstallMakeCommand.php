@@ -1,8 +1,9 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Commands;
+namespace Hanafalah\ModuleMedicalTreatment\Commands;
 
-class InstallMakeCommand extends EnvironmentCommand{
+class InstallMakeCommand extends EnvironmentCommand
+{
     /**
      * The name and signature of the console command.
      *
@@ -23,7 +24,7 @@ class InstallMakeCommand extends EnvironmentCommand{
      */
     public function handle()
     {
-        $provider = 'Gilanggustina\ModuleMedicalTreatment\ModuleMedicalTreatmentServiceProvider';
+        $provider = 'Hanafalah\ModuleMedicalTreatment\ModuleMedicalTreatmentServiceProvider';
 
         $this->comment('Installing Module Medical Treatment...');
         $this->callSilent('vendor:publish', [
@@ -43,6 +44,6 @@ class InstallMakeCommand extends EnvironmentCommand{
         ]);
         $this->info('✔️  App table migrated');
 
-        $this->comment('gilanggustina/module-medical-treatment installed successfully.');
+        $this->comment('hanafalah/module-medical-treatment installed successfully.');
     }
 }

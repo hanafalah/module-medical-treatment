@@ -1,9 +1,9 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Schemas;
+namespace Hanafalah\ModuleMedicalTreatment\Schemas;
 
 use Illuminate\Database\Eloquent\Builder;
-use Gilanggustina\ModuleMedicalTreatment\Contracts;
+use Hanafalah\ModuleMedicalTreatment\Contracts;
 use Illuminate\Database\Eloquent\Model;
 use Hanafalah\LaravelSupport\Supports\PackageManagement;
 

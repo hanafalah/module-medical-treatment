@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Models\MedicalTreatment;
+namespace Hanafalah\ModuleMedicalTreatment\Models\MedicalTreatment;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Hanafalah\LaravelSupport\Models\BaseModel;

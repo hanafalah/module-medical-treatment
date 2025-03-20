@@ -1,13 +1,13 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Schemas;
+namespace Hanafalah\ModuleMedicalTreatment\Schemas;
 
 use Hanafalah\ModuleService\Contracts\ServicePrice;
 use Illuminate\Database\Eloquent\Builder;
-use Gilanggustina\ModuleMedicalTreatment\Contracts;
-use Gilanggustina\ModuleMedicalTreatment\Contracts\MedicalServiceTreatment;
-use Gilanggustina\ModuleMedicalTreatment\Resources\MedicalTreatment\ShowMedicalTreatment;
-use Gilanggustina\ModuleMedicalTreatment\Resources\MedicalTreatment\ViewMedicalTreatment;
+use Hanafalah\ModuleMedicalTreatment\Contracts;
+use Hanafalah\ModuleMedicalTreatment\Contracts\MedicalServiceTreatment;
+use Hanafalah\ModuleMedicalTreatment\Resources\MedicalTreatment\ShowMedicalTreatment;
+use Hanafalah\ModuleMedicalTreatment\Resources\MedicalTreatment\ViewMedicalTreatment;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Hanafalah\LaravelSupport\Supports\PackageManagement;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Contracts;
+namespace Hanafalah\ModuleMedicalTreatment\Contracts;
 
 use Hanafalah\LaravelSupport\Contracts\DataManagement;
 

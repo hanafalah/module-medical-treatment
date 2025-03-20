@@ -1,18 +1,18 @@
 {
-    "name": "gilanggustina/module-medical-treatment",
+    "name": "hanafalah/module-medical-treatment",
     "description": "Master Module Medical Treatment",
     "type": "library",
     "require": {
         "hanafalah/laravel-support": "1.x",
         "hanafalah/module-service": "1.x",
         "hanafalah/module-medic-service": "1.x",
-        "gilanggustina/module-treatment": "1.x",
+        "hanafalah/module-treatment": "1.x",
         "hanafalah/module-transaction": "1.x",
         "hanafalah/module-examination": "1.x"
     },
     "autoload": {
         "psr-4": {
-            "Gilanggustina\\ModuleMedicalTreatment\\": "src/"
+            "Hanafalah\\ModuleMedicalTreatment\\": "src/"
         }
     },
     "authors": [

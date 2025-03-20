@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Supports;
+namespace Hanafalah\ModuleMedicalTreatment\Supports;
 
 use Hanafalah\LaravelSupport\Supports\PackageManagement;
 

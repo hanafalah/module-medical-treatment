@@ -279,7 +279,7 @@
             "time": "2024-10-23T14:52:25+00:00"
         },
         {
-            "name": "gilanggustina/module-treatment",
+            "name": "hanafalah/module-treatment",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
@@ -301,13 +301,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Gilanggustina\\ModuleTreatment\\ModuleTreatmentServiceProvider"
+                        "Hanafalah\\ModuleTreatment\\ModuleTreatmentServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Gilanggustina\\ModuleTreatment\\": "src/"
+                    "Hanafalah\\ModuleTreatment\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

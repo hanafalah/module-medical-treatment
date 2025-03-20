@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Gilanggustina\ModuleMedicalTreatment\Providers;
+namespace Hanafalah\ModuleMedicalTreatment\Providers;
 
-use Gilanggustina\ModuleMedicalTreatment\Commands;
+use Hanafalah\ModuleMedicalTreatment\Commands;
 use Illuminate\Support\ServiceProvider;
 
 class CommandServiceProvider extends ServiceProvider
@@ -14,8 +14,9 @@ class CommandServiceProvider extends ServiceProvider
     ];
 
 
-    public function register(){
-        $this->commands(config('module-medical-treatment.commands',$this->commands));
+    public function register()
+    {
+        $this->commands(config('module-medical-treatment.commands', $this->commands));
     }
     /**
      * Get the services provided by the provider.

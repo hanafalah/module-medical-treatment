@@ -1,10 +1,10 @@
 <?php
 
-use Gilanggustina\ModuleTreatment\Enums\Treatment\TreatmentStatus;
+use Hanafalah\ModuleTreatment\Enums\Treatment\TreatmentStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Gilanggustina\ModuleMedicalTreatment\Models\MedicalTreatment\{
+use Hanafalah\ModuleMedicalTreatment\Models\MedicalTreatment\{
     MedicalServiceTreatment,
     MedicalTreatment
 };

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Gilanggustina\ModuleMedicalTreatment;
+namespace Hanafalah\ModuleMedicalTreatment;
 
 use Hanafalah\LaravelSupport\Providers\BaseServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-use Gilanggustina\ModuleMedicalTreatment\{
+use Hanafalah\ModuleMedicalTreatment\{
     Models,
     Contracts,
     Commands as ModuleMedicalTreatmentCommands

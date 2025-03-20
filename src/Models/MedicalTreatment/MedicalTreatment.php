@@ -1,15 +1,15 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Models\MedicalTreatment;
+namespace Hanafalah\ModuleMedicalTreatment\Models\MedicalTreatment;
 
 use Hanafalah\ModuleService\Concerns\HasServiceItem;
-use Gilanggustina\ModuleMedicalTreatment\Enums\MedicalTreatment\Status;
-use Gilanggustina\ModuleMedicalTreatment\Resources\MedicalTreatment\ViewMedicalTreatment;
+use Hanafalah\ModuleMedicalTreatment\Enums\MedicalTreatment\Status;
+use Hanafalah\ModuleMedicalTreatment\Resources\MedicalTreatment\ViewMedicalTreatment;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Hanafalah\LaravelSupport\Concerns\Support\HasEncoding;
 use Hanafalah\LaravelSupport\Models\BaseModel;
 use Hanafalah\LaravelHasProps\Concerns\HasProps;
-use Gilanggustina\ModuleTreatment\Concerns\HasTreatment;
+use Hanafalah\ModuleTreatment\Concerns\HasTreatment;
 
 class MedicalTreatment extends BaseModel
 {

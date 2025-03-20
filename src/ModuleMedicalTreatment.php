@@ -1,9 +1,7 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment;
+namespace Hanafalah\ModuleMedicalTreatment;
 
-use Gilanggustina\ModuleMedicalTreatment\Supports\BaseModuleMedicalTreatment;
+use Hanafalah\ModuleMedicalTreatment\Supports\BaseModuleMedicalTreatment;
 
-class ModuleMedicalTreatment extends BaseModuleMedicalTreatment{
-  
-}
+class ModuleMedicalTreatment extends BaseModuleMedicalTreatment {}

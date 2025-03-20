@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilanggustina\ModuleMedicalTreatment\Commands;
+namespace Hanafalah\ModuleMedicalTreatment\Commands;
 
 use Hanafalah\LaravelSupport\{
     Commands\BaseCommand
